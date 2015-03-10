@@ -4,6 +4,10 @@
 # The name of this app. Must be unique within a project.
 name: php
 
+dependencies:
+  nodejs:
+    npm: stable
+
 # The toolstack used to build the application.
 toolstack: "php:drupal"
 
