@@ -29,7 +29,11 @@ hooks:
         mv sites/default/election-live-stats-config.json "${NODE_DIR}/config.json"
         cd $NODE_DIR
         npm install
-    deploy: "cd public ; drush -y updatedb"
+    deploy: |
+        cd public
+        drush -y updatedb
+        NODE_DIR=sites/all/modules/contrib/election_livestats/node
+        node "${NODE_DIR}/app.js"
 
 crons:
     drupal:
