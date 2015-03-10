@@ -18,6 +18,7 @@ projects[views][type] = module
 projects[date][type] = module
 projects[election][type] = module
 projects[libraries][type] = module
+projects[rules][type] = module
 
 projects[election_livestats][type] = module
 projects[election_livestats][download][type] = git
