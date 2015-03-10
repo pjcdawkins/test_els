@@ -11,3 +11,14 @@ defaults[projects][subdir] = contrib
 
 ; Platform indicator module.
 projects[platform][version] = 1.3
+
+projects[entity][type] = module
+projects[ctools][type] = module
+projects[views][type] = module
+projects[date][type] = module
+projects[election][type] = module
+projects[libraries][type] = module
+
+projects[election_livestats][type] = module
+projects[election_livestats][download][type] = git
+projects[election_livestats][download][url] = "http://git.drupal.org/sandbox/gausie/2446607.git"
