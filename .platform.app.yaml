@@ -26,7 +26,7 @@ hooks:
         set -e
         cd public
         NODE_DIR=sites/all/modules/contrib/election_livestats/node
-        mv election-live-stats-config.json "${NODE_DIR}/config.json"
+        mv sites/default/election-live-stats-config.json "${NODE_DIR}/config.json"
         cd $NODE_DIR
         npm install
     deploy: "cd public ; drush -y updatedb"
