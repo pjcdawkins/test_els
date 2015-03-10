@@ -22,3 +22,6 @@ projects[libraries][type] = module
 projects[election_livestats][type] = module
 projects[election_livestats][download][type] = git
 projects[election_livestats][download][url] = "http://git.drupal.org/sandbox/gausie/2446607.git"
+
+libraries[highcharts][download][type] = get
+libraries[highcharts][download][url] = http://code.highcharts.com/zips/Highcharts-4.1.1.zip
