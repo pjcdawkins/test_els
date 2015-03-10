@@ -16,7 +16,10 @@ projects[entity][type] = module
 projects[ctools][type] = module
 projects[views][type] = module
 projects[date][type] = module
-projects[election][type] = module
+
+projects[election][version] = "1.x-dev"
+projects[election][patch][] = "https://www.drupal.org/files/issues/election-allow_nonchronological_access_checks-2387261-3.patch"
+
 projects[libraries][type] = module
 projects[rules][type] = module
 
