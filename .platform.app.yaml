@@ -4,7 +4,6 @@ toolstack: "php:drupal"
 
 relationships:
     database: "mysql:mysql"
-    solr: "solr:solr"
     redis: "redis:redis"
 
 web:
